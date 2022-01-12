@@ -1,0 +1,19 @@
+{
+  "name": "cmrit-student-data-repo",
+  "version": "1.0.0",
+  "description": "A web app to manage database of cmrit student",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreadwing5/cmrit-student-data-repo.git"
+  },
+  "author": "dreadwing5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreadwing5/cmrit-student-data-repo/issues"
+  },
+  "homepage": "https://github.com/dreadwing5/cmrit-student-data-repo#readme"
+}
