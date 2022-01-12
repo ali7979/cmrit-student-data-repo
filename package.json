@@ -4,7 +4,7 @@
   "description": "A web app to manage database of cmrit student",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "createDB": "node ./db/createDB.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dreadwing5/cmrit-student-data-repo/issues"
   },
-  "homepage": "https://github.com/dreadwing5/cmrit-student-data-repo#readme"
+  "homepage": "https://github.com/dreadwing5/cmrit-student-data-repo#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
+  }
 }
