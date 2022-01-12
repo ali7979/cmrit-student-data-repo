@@ -1,7 +1,11 @@
-const express = require("express");
-const app = express();
+const app = require("./app");
+const dotenv = require("dotenv");
 
-// Server Running at port 4000
-app.listen("8000", () => {
-  console.log("Server Started ... http://localhost:5000");
+dotenv.config({
+  path: "./config.env",
+});
+
+const port = process.env.PORT || 4000;
+app.listen(port, () => {
+  console.log(`App running on port ${port}...`);
 });

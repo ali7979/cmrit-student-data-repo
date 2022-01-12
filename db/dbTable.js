@@ -8,4 +8,4 @@ exports.CREATE_INTERNSHIP_CELL_TABLE = `CREATE TABLE IF NOT EXISTS internship_ce
 
 exports.CREATE_RESULTS_TABLE = `CREATE TABLE IF NOT EXISTS results(id int NOT NULL AUTO_INCREMENT PRIMARY KEY, facultyId varchar(255), department varchar(255), semester varchar(255), resultDate date, academicYear varchar(255), section char(1), avgCGPA float, passPercent float, nFail int, nAppear int, nPass int, coe varchar(255), description varchar(255), filterDate date)`;
 
-exports.CREATE_DEPARTMENT_LIST_TABLE = `CREATE TABLE IF NOT EXISTS department(id int AUTO_INCREMENT , name varchar(255), PRIMARY KEY(id))`;
+exports.CREATE_DEPARTMENT_TABLE = `CREATE TABLE IF NOT EXISTS department(id int AUTO_INCREMENT , name varchar(255), PRIMARY KEY(id))`;

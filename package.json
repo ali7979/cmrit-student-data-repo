@@ -2,8 +2,10 @@
   "name": "cmrit-student-data-repo",
   "version": "1.0.0",
   "description": "A web app to manage database of cmrit student",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
     "createDB": "node ./db/createDB.js"
   },
   "repository": {
@@ -17,7 +19,9 @@
   },
   "homepage": "https://github.com/dreadwing5/cmrit-student-data-repo#readme",
   "dependencies": {
+    "dotenv": "^11.0.0",
     "express": "^4.17.2",
+    "morgan": "^1.10.0",
     "mysql2": "^2.3.3"
   }
 }
